@@ -1,0 +1,5 @@
+#ifndef ERROR_MESSAGES
+	#define ERROR_MESSAGES
+	string message_invalid_entry_try_again="\n\tERROR: Invalid entry. Please try again.";
+#endif
+

@@ -1,0 +1,33 @@
+#include <fstream>
+#include<string>
+#include <iostream>
+#include "user.h"
+
+#ifndef MAP
+#define MAP
+	#include<map>
+#endif
+/*
+#ifndef AIRPORT
+	#define AIRPORT
+	#include "airport.h"
+#endif
+*/
+using namespace std;
+
+int main(){
+	/*string x="ado";
+	string y="lolo";
+	char *a=new char[10];
+	char *b=new char[10];
+	cout<<"LENGTH="<<string(a).length();
+	*/
+	std::map<int, string> map;
+	map[3]="AAA";
+	map[7]="AAAasdasd";
+	map[4]="AAcc";
+	map[100]="issdla";
+	cout<<map.size();
+	
+	return 0;
+}
